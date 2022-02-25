@@ -8,9 +8,6 @@ def play_memory_game(num):
     Difficulty = num
 
 
-
-
-
     random_list = random.sample(range(1, 101), Difficulty)
     print(random_list)
     time.sleep(0.8)

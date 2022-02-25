@@ -1,6 +1,6 @@
-from WorlsOfGames.games import MemoryGame, CurrencyRoulette, GuessGame
-
-1
+import CurrencyRoulette
+import GuessGame
+import MemoryGame
 
 
 

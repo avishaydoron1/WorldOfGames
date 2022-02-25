@@ -1,5 +1,4 @@
 
-
 def add_score(Difficulty):
     points_of_winning = (Difficulty*3)+5
     print(points_of_winning)
