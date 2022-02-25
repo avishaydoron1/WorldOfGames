@@ -1,8 +1,9 @@
-FROM python3.6-alpine3.7
+FROM python:alpine
 WORKDIR /app
 COPY ./requirements.txt /app/requirements.txt
+COPY ./MainScores.py /app/MainScores.py
 RUN pip install -r requirements.txt
-CMD [ "app.py" ]
+CMD python /app/MainScores.py
 
 
 
